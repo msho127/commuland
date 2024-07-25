@@ -1,0 +1,212 @@
+$mainColor: #49B4B4;
+$fontColor: #0C2E2C;
+$whiteColor: #fff;
+$yellowColor: #FFC443;
+$greenColor: #1B6B66;
+
+
+.bg{
+  width: 100%;
+  height: 100vh;
+  background: $mainColor;
+  position: fixed;
+  .header{
+    width: 100%;
+    padding: 52px 24px 33px;
+    display: flex;
+    .backBtn{
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      position: fixed;
+    }
+    section{
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  main{
+    width: 100%;
+    height: 88%;
+    position: fixed;
+    overflow: auto;
+    scroll-margin-bottom: 200px;
+    background: $whiteColor;
+    border-radius: 20px;
+    .character{
+      width: 100%;
+      height: 28%;
+      padding: 20px;
+      text-align: center;
+      .characters{
+        width: 44%;
+        height: 0%;
+      }
+    }
+    ul{
+      width: 100%;
+      padding: 25px;
+        .ExtraTitle{
+          width: 30%;
+          height: 40px;
+          padding: 0;
+          margin: 0 10px -20px;
+          background: none;
+          border-radius: 0px;
+          display: flex;
+        }
+      li{
+        margin: 14px 0px;
+        width: 100%;
+        height: 88px;
+        padding: 0 30px 0 24px;
+        border-radius: 20px;
+        background: $mainColor;
+        list-style: none;
+          .ExtraBox{
+            width: 100%;
+            height: 88px;
+            color: $whiteColor;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            svg{
+              margin: 0;
+              width: 14px;
+              height: 18px;
+            }
+        }
+        .LevelGrid{
+          width: 100%;
+          height: 88px;
+          display: grid;
+          grid-template-columns: 100% 20px;
+          grid-template-rows: 44px 44px;
+          h3{
+            color: $whiteColor;
+            line-height: 64px;
+          }
+          svg{
+            margin: auto -20px auto;
+            text-align: right;
+            grid-row: 1/3;
+            grid-column: 2/2;
+          }
+        }
+        .achievementRate{
+          display: flex;
+          line-height: 24px;
+        p{
+          color: $whiteColor;
+        }
+        .achievement{
+          width: 200px;
+          height: 0px;
+          display: flex;
+          justify-content: space-between;
+          margin: 0 10px;
+          .achievementList{
+            width: 23%;
+            height: 10px;
+            background: #fff;
+            margin: 7px 0px;
+            padding: 1px;
+            border-radius: 0;
+            list-style: none;
+          }
+          .achievementClearList{
+            width: 23%;
+            height: 10px;
+            background: $yellowColor;
+            margin: 7px 0px;
+            padding: 1px;
+            border-radius: 0;
+            list-style: none;
+          }
+        }
+        }
+      }
+      .ExtraWrap{
+        margin-bottom: 40px;
+      }
+      .clickBox2{
+        padding-bottom: 24px;
+      }
+      .clickBox{
+      width: 100%;
+      height: 100%;
+      align-items: normal;
+        .assignment{
+          width: 100%;
+          height: 60px;
+          display: block;
+          color: $fontColor;
+          text-decoration: none;
+          line-height: 60px;
+          margin: 14px 0;
+          padding: 0 18px;
+          background: $whiteColor;
+          border-radius: 10px;
+          box-shadow: 0px 5px darken($whiteColor, 24%);
+          p{
+            line-height: 64px;
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+        .clear{
+          width: 100%;
+          height: 60px;
+          display: block;
+          text-decoration: none;
+          line-height: 60px;
+          margin: 14px 0;
+          padding: 0 18px;
+          color: $greenColor;
+          background: $yellowColor;
+          box-shadow: 0px 5px darken($yellowColor, 24%);
+          border-radius: 10px;
+          p{
+            line-height: 64px;
+            font-size: 16px;
+            font-weight: bold;
+          }
+
+        }
+        
+      }
+    }
+  }
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+
+.friend{
+  width: 30px;
+  height: 30px;
+  border:solid 1px skyblue;
+}
+
+.swiper-button-next{
+  width: 30%;
+}
+
+.swiper-pagination{
+  display: none;
+}
+.swiper-pagination-clickable{
+  display: none;
+}
+.swiper-pagination-bullets{
+  display: none;
+}
+.swiper-pagination-horizontal{
+  display: none;
+}
