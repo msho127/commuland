@@ -1,0 +1,25 @@
+.GaugeWrapper{
+  width: 300px;
+  height: 20px;
+  background: red;
+  .Gauge{
+    width: 40%;
+    height: 100%;
+    background: skyblue;
+  }
+}
+
+
+.boxWapper{
+  width: 400px;
+  height: 400px;
+  border:solid 1px tomato;
+  .box{
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    background: skyblue;
+    border-radius: 10% 60% 90% 40% / 50% 40% 30% 70%;
+  }
+}
+

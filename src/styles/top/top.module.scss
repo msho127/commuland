@@ -1,0 +1,44 @@
+.frame{
+  width: 100%;
+  position: fixed;
+}
+
+.bg{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #49B4B4;
+}
+
+.balloon {
+  width:200%;
+  height: 900px;
+  position : relative;
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+  top: -30%;
+  left : 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%);
+}
+.balloon:after{
+  border-top: 110px solid #fff;    /* 吹き出し口の高さ・色 */
+  border-left: 90px solid transparent;    /* 吹き出し口の幅１／２ */
+  border-right: 90px solid transparent;   /* 吹き出し口の幅１／２ */
+  bottom: -20px;                          /* 吹き出し口の位置調整 */
+  left : 40%;                      /* 吹き出し口の横位置 */
+  content: "";                       /* コンテンツの挿入 */
+  position: absolute;                /* 親要素を基準 */
+}
+
+.topText{
+  display: block;
+}
+
+.appIcon{
+  display: block;
+  transform: scale(0.5);
+}
