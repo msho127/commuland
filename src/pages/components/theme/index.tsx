@@ -6,9 +6,9 @@ import 'swiper/css/navigation';
 
 import styles from "@/styles/theme/theme.module.scss";
 
-import img1 from "/public/imgs/person/1.png";
-import img2 from "/public/imgs/person/2.png";
-import img3 from "/public/imgs/person/3.png";
+import img1 from "/public/imgs/person/Friend1.png";
+import img2 from "/public/imgs/person/Friend2.png";
+import img3 from "/public/imgs/person/Friend3.png";
 
 
 export default function Home(){
