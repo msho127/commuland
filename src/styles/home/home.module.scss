@@ -127,18 +127,14 @@ $greenColor: #1B6B66;
 }
 
 
-@media screen and (min-width: 481px){
+@media screen and (min-width: 391px){
 
-
-}
-
-@media screen and (min-width: 960px){
   .homeHeader{
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
-    width: 22%;
+    width: 320px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -185,18 +181,20 @@ $greenColor: #1B6B66;
                 font-size: 11px;
               }
             }
+          .hamburger{
+            display: none;
+          }
           }
         .evaluationWrrap{
           width: 100%;
-          height: 76px;
+          height: 146px;
           margin-top: 10px;
           padding: 4%;
           border: 1px solid #3A6577;
           background: #fff;
           color: #333;
           border-radius: 10px;
-          display: flex;
-          justify-content: space-around;
+          display: block;
           align-items: center;
           .trophy{
             width: 12%;
@@ -219,7 +217,7 @@ $greenColor: #1B6B66;
             color: $mainColor;
             padding: 0 0 0 2%;
             font-size: 12px;
-            border-left: 1px solid $mainColor;
+            border-left: 0px;
           }
         }
       }
