@@ -1,9 +1,9 @@
 import Image from "next/image";
-import home from "@/styles/home/home.module.scss";
+import home from "@/styles/components/index.module.scss";
 import React, { useState } from 'react';
 import iconImage from "/public/imgs/icon.png";
 import backImg from "/public/imgs/bgImg.png";
-import school from "/public/imgs/schoolbox.png"
+import school from "/public/imgs/schoolbox.png";
 
 
 export default function Home(){

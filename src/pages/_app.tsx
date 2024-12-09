@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/ress.css";
 
-import "@/styles/index/index.scss"
+import "@/styles/components/index2.scss"
 import "@/styles/globals.scss";
 
 import "./api/index"
